@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* MyDocument.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		50185FDF10B6E97A00CEC840 /* To Do List.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 50185FDE10B6E97A00CEC840 /* To Do List.rtf */; };
+		502FB63B1104D17600EDCAB6 /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 502FB63A1104D17600EDCAB6 /* MyTableView.m */; };
+		50D9513810C437410057771D /* pix.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D9513710C437410057771D /* pix.png */; };
+		50DD4EB610B5B4C4005994A5 /* DocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 50DD4EB410B5B4C4005994A5 /* DocumentIcon.icns */; };
+		50DD4EB710B5B4C4005994A5 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 50DD4EB510B5B4C4005994A5 /* Icon.icns */; };
+		50DD4EBC10B5B544005994A5 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DD4EBB10B5B544005994A5 /* QTKit.framework */; };
+		50DD4EC010B5B54C005994A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DD4EBF10B5B54C005994A5 /* QuartzCore.framework */; };
+		50DD4EDA10B5B615005994A5 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DD4ED610B5B615005994A5 /* button.png */; };
+		50DD4EDB10B5B615005994A5 /* chrono.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DD4ED710B5B615005994A5 /* chrono.png */; };
+		50DD4EDC10B5B615005994A5 /* clap.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DD4ED810B5B615005994A5 /* clap.png */; };
+		50DD4EDE10B5B61A005994A5 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 50DD4EDD10B5B61A005994A5 /* click.wav */; };
+		50F4E06710BD8F360003CCCA /* speed.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F4E06610BD8F360003CCCA /* speed.png */; };
+		50F4E0B810BD9F400003CCCA /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F4E0B610BD9F400003CCCA /* plus.png */; };
+		50F4E0B910BD9F400003CCCA /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F4E0B710BD9F400003CCCA /* minus.png */; };
+		50F9448218C283520089CF6A /* Motion Stop! QuickLook.qlgenerator in Resources */ = {isa = PBXBuildFile; fileRef = 50F9448118C283520089CF6A /* Motion Stop! QuickLook.qlgenerator */; };
+		50FD35D7111F195C008D3626 /* MyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FD35D6111F195C008D3626 /* MyItem.m */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50BC1249111DAAD10019850C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50BC1242111DAAD10019850C /* Motion Stop! QuickLook.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D576316048677EA00EA77CD;
+			remoteInfo = "Motion Stop! QuickLook";
+		};
+		50F9447F18C283370089CF6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50BC1242111DAAD10019850C /* Motion Stop! QuickLook.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D57630D048677EA00EA77CD;
+			remoteInfo = "Motion Stop! QuickLook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50271CB11132F73B0098FF68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Library;
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2564AD2C0F5327BB00F57823 /* Motion_Stop__Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Motion_Stop__Prefix.pch; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		50185FDE10B6E97A00CEC840 /* To Do List.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "To Do List.rtf"; sourceTree = "<group>"; };
+		502FB6391104D17600EDCAB6 /* MyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableView.h; sourceTree = "<group>"; };
+		502FB63A1104D17600EDCAB6 /* MyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableView.m; sourceTree = "<group>"; };
+		50BC1242111DAAD10019850C /* Motion Stop! QuickLook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Motion Stop! QuickLook.xcodeproj"; path = "Motion Stop! QuickLook/Motion Stop! QuickLook.xcodeproj"; sourceTree = "<group>"; };
+		50D9513710C437410057771D /* pix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pix.png; sourceTree = "<group>"; };
+		50DD4EB410B5B4C4005994A5 /* DocumentIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DocumentIcon.icns; sourceTree = "<group>"; };
+		50DD4EB510B5B4C4005994A5 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		50DD4EBB10B5B544005994A5 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		50DD4EBF10B5B54C005994A5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		50DD4ED610B5B615005994A5 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		50DD4ED710B5B615005994A5 /* chrono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrono.png; sourceTree = "<group>"; };
+		50DD4ED810B5B615005994A5 /* clap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap.png; sourceTree = "<group>"; };
+		50DD4EDD10B5B61A005994A5 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		50F4E06610BD8F360003CCCA /* speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speed.png; sourceTree = "<group>"; };
+		50F4E0B610BD9F400003CCCA /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		50F4E0B710BD9F400003CCCA /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		50F9448118C283520089CF6A /* Motion Stop! QuickLook.qlgenerator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Motion Stop! QuickLook.qlgenerator"; sourceTree = "<group>"; };
+		50FD35D5111F195C008D3626 /* MyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyItem.h; sourceTree = "<group>"; };
+		50FD35D6111F195C008D3626 /* MyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyItem.m; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Motion_Stop_-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Motion_Stop_-Info.plist"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Motion Stop!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motion Stop!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				50DD4EBC10B5B544005994A5 /* QTKit.framework in Frameworks */,
+				50DD4EC010B5B54C005994A5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+				50DD4EBB10B5B544005994A5 /* QTKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				50DD4EBF10B5B54C005994A5 /* QuartzCore.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* Motion Stop!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Motion Stop! */ = {
+			isa = PBXGroup;
+			children = (
+				50BC1242111DAAD10019850C /* Motion Stop! QuickLook.xcodeproj */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+				50185FDE10B6E97A00CEC840 /* To Do List.rtf */,
+			);
+			name = "Motion Stop!";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */,
+				502FB6391104D17600EDCAB6 /* MyTableView.h */,
+				502FB63A1104D17600EDCAB6 /* MyTableView.m */,
+				50FD35D5111F195C008D3626 /* MyItem.h */,
+				50FD35D6111F195C008D3626 /* MyItem.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2564AD2C0F5327BB00F57823 /* Motion_Stop__Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50F9448118C283520089CF6A /* Motion Stop! QuickLook.qlgenerator */,
+				50D9513710C437410057771D /* pix.png */,
+				50DD4EDD10B5B61A005994A5 /* click.wav */,
+				50DD4ED610B5B615005994A5 /* button.png */,
+				50DD4ED710B5B615005994A5 /* chrono.png */,
+				50DD4ED810B5B615005994A5 /* clap.png */,
+				50F4E06610BD8F360003CCCA /* speed.png */,
+				50F4E0B610BD9F400003CCCA /* plus.png */,
+				50F4E0B710BD9F400003CCCA /* minus.png */,
+				50DD4EB410B5B4C4005994A5 /* DocumentIcon.icns */,
+				50DD4EB510B5B4C4005994A5 /* Icon.icns */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Motion_Stop_-Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* MyDocument.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50BC1243111DAAD10019850C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50BC124A111DAAD10019850C /* Motion Stop! QuickLook.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Motion Stop! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Motion Stop!" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				50271CB11132F73B0098FF68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F9448018C283370089CF6A /* PBXTargetDependency */,
+			);
+			name = "Motion Stop!";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Motion Stop!";
+			productReference = 8D15AC370486D014006FF6A4 /* Motion Stop!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Motion Stop!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Motion Stop! */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 50BC1243111DAAD10019850C /* Products */;
+					ProjectRef = 50BC1242111DAAD10019850C /* Motion Stop! QuickLook.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* Motion Stop! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		50BC124A111DAAD10019850C /* Motion Stop! QuickLook.qlgenerator */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Motion Stop! QuickLook.qlgenerator";
+			remoteRef = 50BC1249111DAAD10019850C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F9448218C283520089CF6A /* Motion Stop! QuickLook.qlgenerator in Resources */,
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				50DD4EB610B5B4C4005994A5 /* DocumentIcon.icns in Resources */,
+				50DD4EB710B5B4C4005994A5 /* Icon.icns in Resources */,
+				50DD4EDA10B5B615005994A5 /* button.png in Resources */,
+				50DD4EDB10B5B615005994A5 /* chrono.png in Resources */,
+				50DD4EDC10B5B615005994A5 /* clap.png in Resources */,
+				50DD4EDE10B5B61A005994A5 /* click.wav in Resources */,
+				50185FDF10B6E97A00CEC840 /* To Do List.rtf in Resources */,
+				50F4E06710BD8F360003CCCA /* speed.png in Resources */,
+				50F4E0B810BD9F400003CCCA /* plus.png in Resources */,
+				50F4E0B910BD9F400003CCCA /* minus.png in Resources */,
+				50D9513810C437410057771D /* pix.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				502FB63B1104D17600EDCAB6 /* MyTableView.m in Sources */,
+				50FD35D7111F195C008D3626 /* MyItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50F9448018C283370089CF6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Motion Stop! QuickLook";
+			targetProxy = 50F9447F18C283370089CF6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Motion_Stop__Prefix.pch;
+				INFOPLIST_FILE = "Motion_Stop_-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Motion Stop!";
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Motion_Stop__Prefix.pch;
+				INFOPLIST_FILE = "Motion_Stop_-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Motion Stop!";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Motion Stop!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Motion Stop!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
